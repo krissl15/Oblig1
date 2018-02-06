@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-func swap(list []int, i, j int){
-	temp := list[j]
-	list[j]=list[i]
-	list[i]=temp
+func swap(list []int, a, b int){
+	tem := list[b]
+	list[b]=list[a]
+	list[a]=tem
 }
 
 
