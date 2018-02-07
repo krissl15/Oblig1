@@ -63,3 +63,16 @@ func qsort(values []int, l int, r int) {
 	qsort(values, l, i-2)
 	qsort(values, i, r)
 }
+
+////////////4B: Lag en funksjonen ExtendedASCIIText () i filen sorting.go , som skriver ut: " € ÷ ¾ dollar "
+var asciiR = []rune{8364, 32, 190, 32, 247, 32, 100, 111, 108, 108, 97, 114}
+var asciiByteSlice = []byte(asciiS)
+var asciiS = string(asciiR)
+
+func ExtendedASCIIText()(string){
+
+	fmt.Printf("%q", asciiByteSlice)
+	return string(asciiS)
+}
+///////////////////SLUTT 4B////////////////////
+
