@@ -1,26 +1,7 @@
+Oppgave 1. Fyll ut tabellen
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-th {
-	background-color: #cccccc;
-}
-
-
-</style>
-</head>
 <body>
 
 <table>
@@ -58,3 +39,6 @@ th {
 
 </body>
 </html>
+
+Oppgave 1 A.
+Gjøre om fra binære tall til hexadesimale tall:
