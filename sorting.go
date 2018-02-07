@@ -3,6 +3,7 @@ package algorithms
 // Les https://en.wikipedia.org/wiki/Bubble_sort
 
 ////////////////////opg2a///////////////
+//swap funksjonen bytter om tallene i og j 
 func swap(list []int, i, j int) {
 	temp := list[j]
 	list[j] = list[i]
@@ -65,14 +66,15 @@ func qsort(values []int, l int, r int) {
 }
 
 ////////////4B: Lag en funksjonen ExtendedASCIIText () i filen sorting.go , som skriver ut: " € ÷ ¾ dollar "
-var asciiR = []rune{8364, 32, 190, 32, 247, 32, 100, 111, 108, 108, 97, 114}
-var asciiByteSlice = []byte(asciiS)
-var asciiS = string(asciiR)
+var asciiR = []rune{8364, 32, 190, 32, 247, 32, 100, 111, 108, 108, 97, 114} //må bruke rune pga. €=8364
+var asciiS = string(asciiR) //convert slice of rune til string
+var asciiByteSlice = []byte(asciiS)//convert string til slyce of byte
+
 
 func ExtendedASCIIText()(string){
 
-	fmt.Printf("%q", asciiByteSlice)
-	return string(asciiS)
+	fmt.Printf("%q", asciiByteSlice)// printer ut slyce of bytes, %q viser representasjon
+	return string(asciiS)//return string med tegn fra extendedAscii
 }
 ///////////////////SLUTT 4B////////////////////
 
