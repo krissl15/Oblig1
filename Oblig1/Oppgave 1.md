@@ -40,7 +40,7 @@ OPPGAVE 1. Fyll ut tabellen
 
 <br>
 
-OPPGAVE 1 A. Metode for å gjøre om fra hexadesimaltall til binære tall og motsatt, gjøre om fra desimaltall til binære tall og motsatt.
+<b>OPPGAVE 1 A. Metode for å gjøre om fra hexadesimaltall til binære tall og motsatt, gjøre om fra desimaltall til binære tall og motsatt.</b>
 <br>
 <br>
 	<b>Binære tall -> hexadesimale tall</b>
@@ -59,7 +59,7 @@ OPPGAVE 1 A. Metode for å gjøre om fra hexadesimaltall til binære tall og mot
   <br>
 <b>Binære tall -> desimaltall</b> <br>
 	1. For å gå fra binære tall til desimaltall: les fra høyre til venstre, og legg sammen verdiene som har 1 tall. Alternativt kan vi regne ut ifra totallsystemet: <br>
-	Verdien x sin posisjon ganges med 2^x, leses av fra høyre side: <br>
+	Verdien sin x posisjon ganges med 2^x, leses av fra høyre side: <br>
 		Eks. 1010:
 			<br> 0	&times; 2^0=0
 			<br> 1	&times; 2^1  =  2
@@ -72,7 +72,7 @@ OPPGAVE 1 A. Metode for å gjøre om fra hexadesimaltall til binære tall og mot
 	Start med høyest mulig tall i tallrekken (venstre side) som går opp i angitt desimaltall, og legg sammen alle mulige tall til riktig desimaltall er funnet. Alle tall som går med, skal skrives ned 1 på.
   <br>
 
-Alternativt tar vi heltallsdivisjon, og tar angitt desimaltall delt på 2. Dersom det er noen rester, skriv ned restverdien (alltid 1). Dersom det ikke er rester, skriv ned 0. Gjør slikt med alle tell helt til heltallsdivisjonen ender opp på 0.
+Alternativt tar vi heltallsdivisjon, og tar angitt desimaltall delt på 2. Dersom det er noen rester, skriv ned restverdien (alltid 1). Dersom det ikke er rester, skriv ned 0. Gjør slikt med alle tall helt til heltallsdivisjonen ender opp på 0.
 <table>
   <tr>
     <th>Heltallsdivisjon</th>
@@ -125,19 +125,20 @@ Alternativt tar vi heltallsdivisjon, og tar angitt desimaltall delt på 2. Derso
     <td>0</td>
   </tr>
 </table>
-	Deretter skriver vi opp resttallet fra nederste linje og opp.<br>
+	Deretter skriver vi opp rest-tallet fra nederste linje og opp.<br>
   255 = 1111 1111  (ettersom 0 er på enden, vil den ikke være gjeldende)
 <br>
 
- OPPGAVE 1 B. Metode for å gjøre om fra desimaltall til hexadesimaltall og motsatt
+ <b>OPPGAVE 1 B. Metode for å gjøre om fra desimaltall til hexadesimaltall og motsatt</b>
  <br>
  <br>
 	<b>1. Hexadesimaltall -> desimaltall - F.eks F7:</b>
   <br>
-		a. Her regner vi med 〖16〗^x (hexadesimal = seksentallssystem), og regner ut i fra posisjonen til verdiene. 7 vil være i posisjon 0, mens F i posisjon 1, osv.
-			7∗〖16〗^0=7
-			7∗〖16〗^1=240
-			Deretter adderer vi summen. F7 = 247.
+		Samme metode som fra binære tall til desimaltall.
+		Her regner vi med 16^x (hexadesimal = seksentallssystem), og regner ut i fra posisjonen til verdiene. 7 vil være i posisjon 0, mens F i posisjon 1, osv.
+			<br>7 &times;16^0=7
+			<br>7 &times; 16^1=240
+			<br>Deretter adderer vi summen. F7 = 247.
       <br>
       <br>
 			
