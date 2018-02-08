@@ -190,9 +190,5 @@ Se filen "iso_test.go" for koden.
 
 
 
-	
-	
-	
-
 </body>
 </html>
