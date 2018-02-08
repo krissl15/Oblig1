@@ -129,7 +129,7 @@ Alternativt tar vi heltallsdivisjon, og tar angitt desimaltall delt på 2. Derso
   255 = 1111 1111  (ettersom 0 er på enden, vil den ikke være gjeldende)
 <br>
 
- <b>OPPGAVE 1 B. Metode for å gjøre om fra desimaltall til hexadesimaltall og motsatt</b>
+## OPPGAVE 1 B. Metode for å gjøre om fra desimaltall til hexadesimaltall og motsatt
  <br>
  <br>
 	<b>1. Hexadesimaltall -> desimaltall - F.eks F7:</b>
