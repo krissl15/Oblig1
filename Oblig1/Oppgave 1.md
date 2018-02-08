@@ -154,7 +154,7 @@ Se fil "sorting.go"
 Se fil "sorting_test.go"
 
 ## Oppgave 2C:
-![BenchTest](https://imgur.com/tiazME2)
+![BenchTest](https://i.imgur.com/gStphWH.png)
 
 	
 	
