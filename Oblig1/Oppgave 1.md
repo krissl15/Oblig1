@@ -40,7 +40,7 @@
 
 <br>
 
-## OPPGAVE 1 A: Metode for å gjøre om fra hexadesimaltall til binære tall og motsatt, gjøre om fra desimaltall til binære tall og motsatt.
+## OPPGAVE 1A: Metode for å gjøre om fra hexadesimaltall til binære tall og motsatt, gjøre om fra desimaltall til binære tall og motsatt.
 <br>
 <br>
 	<b>Binære tall -> hexadesimale tall</b>
@@ -144,6 +144,27 @@ Alternativt tar vi heltallsdivisjon, og tar angitt desimaltall delt på 2. Derso
 			
  <b>2. Desimaltall -> Hexadesimaltall </b><br>
 	Samme utførelse som fra desimaltall til binære tall, bare at vi deler på 16 nå, istedenfor 2. 
+	
+2. Forstå algoritmer og utføre “benchmark”-tester på koden
+Programmeringsoppgave: - ta utgangspunkt i pakken algorithms i oblig1
+
+Oppgave A
+Skriv en modifisert bubble-sort funksjon Bubble_sort_modified basert på eksempel-funksjon BubbleSort i filen sorting.go (se https://en.wikipedia.org/wiki/Bubble_sort for tips)
+
+Oppgave B
+Skriv "benchmark"-tester for Bubble_sort_modified funksjonen basert på eksempel-funksjon benchmarkBSort i filen sorting_test.go
+
+Oppgave C
+Det finnes også en implementasjon av Quicksort algoritme i sorting.go og tilsvarende implementasjon av tester i go; utfør alle benchmark- testene med kommando “go test -bench=.” og presenter resultatene grafisk
+
+Hva kan du si om big-O for alle 3 algoritmene, som du har testet?
+
+	
+	
+	
+	
+	
+	
 
 </body>
 </html>
