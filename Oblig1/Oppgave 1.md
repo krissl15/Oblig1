@@ -161,6 +161,16 @@ Vi kan se at big-O for alle de tre algoritmene vi har testet så er det QuickSor
 <br>
 ![benchTestGraph](https://i.imgur.com/s2xL3sv.png)<br>
 Hvis vi går inn på http://bigocheatsheet.com/ og ser på grafene i Big-O Complexity Chart så kan vi se at QuickSort grafen vår ligger på Best/Average med Ω(n log(n)). Bubblesort og BubbleSortModified grafen ligger på Average/Worst med Θ(n^2).
+<br>
+<br>
+# Oppgave 3
+Se filen "LoopSig.go" for koden.
+<br>
+**"Hvor mye minne og CPU bruker programmet når det kjører."**
+<br>
+![evigLoop](https://i.imgur.com/9TV5n9e.png) 
+<br>
+Prosessen "eee" på bildet er programmet med den evige løkken. Vi ser at funksjonen bruker 6,6% av prosessoren, og 4,5MB minne.
 
 
 
