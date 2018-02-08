@@ -154,10 +154,14 @@ Se fil "sorting.go"
 Se fil "sorting_test.go"
 
 ## Oppgave 2C:
-![BenchTest](https://i.imgur.com/gStphWH.png)
+![BenchTestCMD](https://i.imgur.com/gStphWH.png)
 <br>
 Vi kan se at big-O for alle de tre algoritmene vi har testet så er det QuickSort som kommer best ut i forhold til hastigheten mellom BubbleSort, BubbleSortModified og QuickSort. Vi ser at QuickSort går gjennom ganske mange flere løkker enn BubbleSort med raskere tid. <br>
 **Eksempel**: QuickSort på 100 elementer tar 4731 nanosekunder per løkke i forhold til BubbleSort som bruker 26358 nanosekund per løkke på 100 elementer. Jo flere elementer vi får hvor lengere tid vill prosessen ta.
+<br>
+![benchTestGraph](https://i.imgur.com/s2xL3sv.png)<br>
+Hvis vi går inn på http://bigocheatsheet.com/ og ser på grafene i Big-O Complexity Chart så kan vi se at QuickSort grafen vår ligger på Best/Average med Ω(n log(n)). Bubblesort og BubbleSortModified grafen ligger på Average/Worst med Θ(n^2).
+
 
 
 	
