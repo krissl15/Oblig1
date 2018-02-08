@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<h1>OPPGAVE 1. Fyll ut tabellen<h1>
+<h1>OPPGAVE 1. Fyll ut tabellen</h1>
 <html>
 
 <body>
