@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<h1>OPPGAVE 1. Fyll ut tabellen</h1>
+#OPPGAVE 1. Fyll ut tabellen
 <html>
 
 <body>
@@ -40,7 +40,7 @@
 
 <br>
 
-<b>OPPGAVE 1 A. Metode for å gjøre om fra hexadesimaltall til binære tall og motsatt, gjøre om fra desimaltall til binære tall og motsatt.</b>
+<b>OPPGAVE 1 A: Metode for å gjøre om fra hexadesimaltall til binære tall og motsatt, gjøre om fra desimaltall til binære tall og motsatt.</b>
 <br>
 <br>
 	<b>Binære tall -> hexadesimale tall</b>
