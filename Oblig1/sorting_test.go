@@ -23,7 +23,7 @@ func perm(n int) (out []int) {
 // Skriv "benchmark"-tester for benchmarkBSortModified funksjonen
 // Skriv en ny testfunksjon benchmarkBSortModified
 
-//////////////////opg2c///////////////////////////
+//////////////////opg2b///////////////////////////
 func BenchmarkBSortModified100(b *testing.B) {
 	benchmarkBSortModified(100, b)
 }
@@ -45,7 +45,7 @@ func benchmarkBSortModified(i int, b *testing.B) {
 		Bubble_sort_modified(values)
 	}
 }
-///////////////////op2c slutt/////////////////////////
+///////////////////op2b slutt/////////////////////////
 
 func BenchmarkBSort100(b *testing.B) {
 	benchmarkBSort(100, b)
