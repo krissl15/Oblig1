@@ -6,7 +6,7 @@ import (
 	"log"
 )
 /**
-* stringToHex vil gjøre om symbolene en skriver i "src" til hex-verdier. 
+* byteToHex vil gjøre om symbolene en skriver i "src" til hex-verdier. 
 */
 
 
