@@ -22,12 +22,14 @@ Dette eksempelet tar utgangspunkt i en []byte input og gjør den om til string. 
 <br>
  Eksempel 2 (asciiEKS2.go): 
 <br>
-Dette eksempelet anvender to funksjoner: En til å konvertere symboler til hex-verdier, og en annen til å konvertere fra hex-verdier til string. Dette gir en "gratis" løsning på oppgaven, da en han bruke codepoints til å printe ut symboler, uten å vite hva det er i det hele tatt.
+Dette eksempelet anvender to funksjoner: En til å konvertere symboler til hex-verdier, og en annen til å konvertere fra hex-verdier til string. Dette gir en "gratis" løsning på oppgaven, da en kan bruke codepoints til å printe ut symboler, uten å vite hva det i det hele tatt er.
 <br>
 <br>
 Eksempel 3 (asciiEKS3.go): 
 <br>
-
+Dette eksempelet er den beste løsningen for å printe UTF-8 verdier fra []byte. Euro tegnet er ikke med her, da det ikke er en del av ISO8859-1, og dermed ikke kompitabelt med []byte. Om en kunne brukt ISO8859-15 set ville en derimot kunne brukt denne metoden til å printe euro-tegn.
+<br>
+<br>
 ## Oppgave 4C:
 Se filen "iso_test.go" for koden.
 
