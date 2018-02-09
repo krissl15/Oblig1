@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-# OPPGAVE 1. Fyll ut tabellen
 <html>
 
 <body>
