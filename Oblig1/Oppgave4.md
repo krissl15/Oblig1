@@ -12,7 +12,7 @@ Se filen "ascii.go" for koden.
 
 ## Oppgave 4B:
 <br>
-Se filen "sorting.go" for beste løsning. Jeg har og lagt til **2** andre eksempler i egne filer (asciiEKS1.go, asciiEKS2.go). 
+Se filen "sorting.go" for beste løsning. Jeg har og lagt til 2 andre eksempler i egne filer (asciiEKS1.go, asciiEKS2.go). 
 <br>
 Eksempel 1 (Koden i "sorting.go"): 
 <br>
