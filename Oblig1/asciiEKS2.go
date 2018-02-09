@@ -16,7 +16,7 @@ func byteToHex() {
 	dst := make([]byte, hex.EncodedLen(len(src)))
 	hex.Encode(dst, src)
 
-	fmt.Printf("%s\n", dst)
+	fmt.Printf("%s\n", dst) // output: 20e282ac20c3b720c2be20646f6c6c617220
 }
 
 
