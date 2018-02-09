@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 # Oppgave 4 
 <br>
 ## Oppgave 4A
@@ -12,3 +14,6 @@ utfør programmet på alle gruppemedlemmers datamaskin og analyser** HUSKHUSKHUS
 ## Oppgave 4C
 <br>
 Se filen "iso_test.go" for koden.
+
+</body>
+</html>
