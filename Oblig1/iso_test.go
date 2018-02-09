@@ -6,7 +6,7 @@ import (
 
 func asciiTest(j string) bool {
 	for _, i := range j {
-		if i < 127 || i > 255  {
+		if i < 127 || i > 255 { //<-- Sjekker om codepointet er mellom 127 og 255, altså extended ASCII
 			return true
 		}
 	}
@@ -15,14 +15,15 @@ func asciiTest(j string) bool {
 
 func TestExtendedASCII(t *testing.T) {
 
-	asciiR := []rune{34, 8364, 32, 190, 32, 247, 32, 100, 111, 108, 108, 97, 114, 34}
-	asciiS := string(asciiR)
-	asciiByteSlice := []byte(asciiS)
+/**	asciiR := []rune{34, 8364, 32, 190, 32, 247, 32, 100, 111, 108, 108, 97, 114, 34}	//<-- Rune pga €.
+	asciiS := string(asciiR)	//<-- fra rune til string
+	asciiByteSlice := []byte(asciiS)	//<-- fra string til []byte
 
-	g := ExtendedASCIIText(asciiByteSlice)
+	g := ExtendedASCIIText(asciiByteSlice) //<-- bruker []byte som parameter 
 
+*/
 
-	for _, d := range g { //<-- Skriv in strings som skal testes her.
+	for _, d := range "æ" { //<-- velg test-string. Fjern "/**"  over og bruk g for å teste tegn fra 4B.
 		h := string(d)
 		if asciiTest(h) == true {
 
