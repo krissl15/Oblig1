@@ -30,7 +30,7 @@ Eksempel 3 (asciiEKS3.go):
 Dette eksempelet er den beste løsningen for å printe UTF-8 verdier fra []byte. Euro tegnet er ikke med her, da det ikke er en del av ISO8859-1, og dermed ikke kompitabelt med []byte. Om en kunne brukt ISO8859-15 set ville en derimot kunne brukt denne metoden til å printe euro-tegn.
 <br>
 <br>
-## Oppgave 4C:
+<h1> Oppgave 4C:</h1>
 Se filen "iso_test.go" for koden.
 
 
