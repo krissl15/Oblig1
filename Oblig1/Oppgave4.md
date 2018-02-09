@@ -20,6 +20,7 @@ Dette eksempelet tar utgangspunkt i en []byte input og gjør den om til string. 
 
  Eksempel 2 (asciiEKS2.go): 
 <br>
+<br>
 Dette eksempelet anvender to funksjoner: En til å konvertere symboler til hex-verdier, og en annen til å konvertere fra hex-verdier til string. Dette gir en "gratis" løsning på oppgaven, da en han bruke codepoints til å printe ut symboler, uten å vite hva det er i det hele tatt.
 <br>
 Eksempel 3 (asciiEKS3.go): 
