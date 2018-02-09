@@ -13,6 +13,13 @@ Se filen "ascii.go" for koden.
 ## Oppgave 4B:
 <br>
 Se filen "sorting.go" for koden. 
+Eksempel 1: 
+<br>
+
+Eksempel 2: 
+<br>
+
+Eksempel 3: 
 <br>
 
 ## Oppgave 4C:
