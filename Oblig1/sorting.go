@@ -66,23 +66,18 @@ func qsort(values []int, l int, r int) {
 }
 
 ////////////4B: Lag en funksjonen ExtendedASCIIText () i filen sorting.go , som skriver ut: " € ÷ ¾ dollar "
-package main
-
-import "fmt"
-
-
-
-func ExtendedASCIIText(s []byte) string {
+func ExtendedASCIIText(s []byte) string { // Tar []byte som argument
 	var ascii = string(s)
-	return ascii
+	return ascii //<-- returnerer []byte argumentet som string
 }
 
 func main() {
-	asciiR := []rune{34, 8364, 32, 190, 32, 247, 32, 100, 111, 108, 108, 97, 114, 34}
-	asciiS := string(asciiR)
-	asciiByteSlice := []byte(asciiS)
-	fmt.Printf("%s", ExtendedASCIIText(asciiByteSlice))
-
+	asciiR := []rune{34, 8364, 32, 190, 32, 247, 32, 100, 111, 108, 108, 97, 114, 34}// rune pga €=8364 codepoint
+	asciiS := string(asciiR)  // rune->string
+	asciiByteSlice := []byte(asciiS) // string->[]byte
+	
+	fmt.Printf("%s", ExtendedASCIIText(asciiByteSlice)) // output: "€ ¾ ÷ dollar"
+       
 }
-///////////////////SLUTT 4B////////////////////
+///////////////////SLUTT 4B//////////////////// se flere eksempler (asciiEKS1.go, asciiEKS2.go)
 
