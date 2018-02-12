@@ -9,6 +9,10 @@
 <br>
 Se filen "ascii.go" for koden. 
 <br>
+<br>
+Her er resultatet av å kjøre koden på to forskjellige pc'er, en med Mac OS og en med Windows: 
+<br>
+![bildeAvTegn](https://i.imgur.com/w0gPOV1.png)
 
 ## Oppgave 4B:
 <br>
