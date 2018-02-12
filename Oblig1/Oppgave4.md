@@ -13,6 +13,11 @@ Se filen "ascii.go" for koden.
 Her er resultatet av å kjøre koden på to forskjellige pc'er, (Vi testet alle 5, de med mac fikk samme, og de med windows fikk samme)<br> en med Mac OS og en med Windows: 
 <br>
 <img src="https://i.imgur.com/w0gPOV1.png"  width="230" height="360">
+<br>
+På bildet ser vi forskjeller i hvilke tegn som vises på de forskjellige operativsystemene. På Windows 7  er noen av kodepunktene 128-159 angitt symboler, mens på High Sierra kommer ingenting opp. 
+<br>
+Sannsynligvis bruker operativsystemene forskjellige kontrolltegn, kodepunkt avholdt esc, tab, delete osv. Da noen kodepunkt er avholdt kontrolltegn, vil det resultere i at ingenting blir printet om en kaller kodepunktet.
+<br>
 
 ## Oppgave 4B:
 <br>
