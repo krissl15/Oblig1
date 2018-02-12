@@ -12,7 +12,7 @@ Se filen "ascii.go" for koden.
 <br>
 Her er resultatet av å kjøre koden på to forskjellige pc'er, en med Mac OS og en med Windows: 
 <br>
-<img src="https://i.imgur.com/w0gPOV1.png"  width="104" height="142">
+<img src="https://i.imgur.com/w0gPOV1.png"  width="208" height="300">
 
 ## Oppgave 4B:
 <br>
