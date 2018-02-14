@@ -164,7 +164,7 @@ Hvis vi går inn på http://bigocheatsheet.com/ og ser på grafene i Big-O Compl
 <br>
 <br>
 # Oppgave 3
-Se filen "LoopSig.go" for koden.
+Se filen "opg3Loop.go" for koden.
 <br>
 **"Hvor mye minne og CPU bruker programmet når det kjører."**
 <br>
