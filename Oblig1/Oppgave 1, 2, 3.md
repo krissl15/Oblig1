@@ -170,7 +170,7 @@ Se filen "opg3Loop.go" for koden.
 <br>
 ![evigLoop](https://i.imgur.com/9TV5n9e.png) 
 <br>
-Prosessen "eee" på bildet er programmet med den evige løkken. Vi ser at funksjonen bruker 6,6% av prosessoren, og 4,5MB minne.
+Prosessen "eee" på bildet er programmet med den evige løkken. Vi ser at funksjonen bruker 6,6% av prosessorkraften, og 4,5MB minne.
 <br>
 
 
