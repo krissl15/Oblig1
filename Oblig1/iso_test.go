@@ -15,7 +15,7 @@ func asciiTest(j string) bool {
 
 func TestExtendedASCII(t *testing.T) {
 
-//Koden som er nullet ut her kan brukes vis en vil teste tegn brukt i Opg. 4b.
+//Koden som er nullet ut her kan brukes om en vil teste tegn brukt i Opg. 4b.
 	
 /**	asciiR := []rune{34, 8364, 32, 190, 32, 247, 32, 100, 111, 108, 108, 97, 114, 34}	//<-- Rune pga €.
 	asciiS := string(asciiR)	//<-- fra rune til string
