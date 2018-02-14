@@ -5,6 +5,5 @@
 <br> 
 <h4>Kodesegmenter er organisert etter oppgavetekst</h4>
 <br>
-<br>
 Svar på spørsmål til oppgave 1, 2, og 3 er i samme .md, mens oppgave 4 er i en egen. 
 <br>
