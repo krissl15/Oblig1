@@ -6,7 +6,6 @@ Svar på spørsmål til oppgave 1, 2, og 3 er i samme .md, mens oppgave 4 er i e
 <br>
 <br>
 <h5>Gruppemedlemmer:</h5>
-<br>  
 Kristoffer Slettebakken<br>
 Martin Eileraas<br>
 Elias Brynestad<br>
